@@ -28,17 +28,16 @@
               <div></div>
               <div class="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom20-32qID7">
 
-                <h5  class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi defaultMarginh5-2mL-bP marginBottom8-AtZOdT">Theme Name</h5>
+                <h5 class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi defaultMarginh5-2mL-bP marginBottom8-AtZOdT">Theme Name<span class="required-7sPBq3 statusRed-21U8Tp">*</span></h5>
+                
 
-                <div  class="inputWrapper-31_8H8 vertical-V37hAW flex-1O1GKY directionColumn-35P_nr">
-                  <input id="themeName" class="inputDefault-_djjkz input-cIJ7To size16-14cGz5" type="text" placeholder="" maxlength="999"
-                    value="">
+                <div class="inputWrapper-31_8H8 vertical-V37hAW flex-1O1GKY directionColumn-35P_nr">
+                  <input id="themeName" class="inputDefault-_djjkz input-cIJ7To size16-14cGz5" type="text" placeholder="AkaShrug" maxlength="999" value="">
                 </div>
               </div>
               <!-- Question 1: Theme Base -->
               <div class="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom20-32qID7">
                 <h5 class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi defaultMarginh5-2mL-bP marginBottom8-AtZOdT">Base Theme</h5>
-                <div class="description-3_Ncsb formText-3fs7AJ smallSpacing-2Dn-1F marginBottom8-AtZOdT modeDefault-3a2Ph1 primary-jw0I4K">Select a theme base to get started.</div>
                 <div class="select-2TCrqx">
                   <div class="Select Select--single is-clearable is-searchable">
                     <div class="Select-control">
@@ -47,28 +46,58 @@
                           <span class="Select-value-label" id="react-select-15--value-item">BasicBackground by DevilBro</span>
                         </div>
                       </span>
-                      <span class="Select-arrow-zone">
-                        <span class="Select-arrow" a></span>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div class="divider-3573oO dividerDefault-3rvLe- marginTop20-3TxNs6"></div>
+
+
               </div>
 
               <!-- Question 2: Accent color -->
               <div class="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom20-32qID7">
+                
                 <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStart-H-X2h- noWrap-3jynv6">
                   <h3 class="titleDefault-a8-ZSr title-31JmR4 marginReset-236NPn weightMedium-2iZe9B size16-14cGz5 height24-3XzeJx flexChild-faoVW3"
                     style="flex: 1 1 auto;">Accent color</h3>
                   <button id="colorButton" class="colorPickerSwatch-5GX3Ve default-cS_caM" style="background-color: rgb(153, 170, 181);"></button>
                 </div>
                 <div class="divider-3573oO dividerDefault-3rvLe- marginTop20-3TxNs6"></div>
-              </div>
 
+              </div>
+              <div class="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom20-32qID7">
+                <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStart-H-X2h- noWrap-3jynv6">
+                  <h3 class="titleDefault-a8-ZSr title-31JmR4 marginReset-236NPn weightMedium-2iZe9B size16-14cGz5 height24-3XzeJx flexChild-faoVW3"
+                    style="flex: 1 1 auto;">Transparency color</h3>
+                  <button id="colorButtonTc" class="colorPickerSwatch-5GX3Ve default-cS_caM" style="background-color: rgb(0, 0, 0);"></button>
+
+                </div>
+                <div class="divider-3573oO dividerDefault-3rvLe- marginTop20-3TxNs6"></div>
+              </div>
               <!-- Question 3: Background image-->
 
+              <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 volume"
+                style="flex: 1 1 auto;">
+                <div class="flexChild-faoVW3" style="flex: 1 1 50%;">
+                  <h5 class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi margin-bottom-4">members transparency </h5>
+                  <input id="mt" type="number" min="-" max="1" placeholder="0" value="0" step="0.05" class="inputMini-2xQV9 input-cIJ7To size16-14cGz5">
+                </div>
+
+                <div class="flexChild-faoVW3" style="flex: 1 1 50%;">
+                  <h5 class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi margin-bottom-4">Transparency alpha </h5>
+                  <input id="ta" type="number" min="0" max="1" placeholder="15" value="0.15" step="0.05" class="inputMini-2xQV9 input-cIJ7To size16-14cGz5">
+                </div>
+
+                <div class="flexChild-faoVW3" style="flex: 1 1 50%;">
+                  <h5 class="h5-18_1nd title-3sZWYQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi margin-bottom-4">Message transparency </h5>
+                  <input id="msgt" type="number" min="0" max="1" placeholder="0.5" value="0.5" step="0.05"class="inputMini-2xQV9 input-cIJ7To size16-14cGz5">
+                </div>
+              </div>
+
+              <div class="divider-3573oO dividerDefault-3rvLe- marginTop20-3TxNs6"></div>
               <div class="flex-1xMQg5 flex-1O1GKY vertical-V37hAW directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom20-32qID7">
+                >
                 <h3 class="titleDefault-a8-ZSr title-31JmR4 marginReset-236NPn weightMedium-2iZe9B size16-14cGz5 height24-3XzeJx flexChild-faoVW3"
                   style="flex: 1 1 auto;">Background image</h3>
                 <div id="warn" class="description-3_Ncsb flexChild-faoVW3 modeDefault-3a2Ph1 primary-jw0I4K" style="flex: 1 1 auto; color: rgb(240, 71, 71);display:none">
