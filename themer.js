@@ -48,7 +48,7 @@ function genTheme() {
 
 :root {
 	--transparencycolor: ${cRgbTc.r},${cRgbTc.g},${cRgbTc.b};		/* default: 0,0,0 */
-	--transparencyalpha: ${ta};		/* default: 0.15 */
+	--transparencyalpha: ${colorT};		/* default: 0.15 */
 	--messagetransparency: ${msgT};		/* default: 0.5 */
 	--memberlistransparency: ${memberT};		/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
 	--accentcolor:${cRgb.r},${cRgb.g},${cRgb.b}; 		/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
