@@ -4,7 +4,8 @@ window.onload = function () {
 	if(!emUrl)return;
 	// console.log(emUrl.startsWith('https'));
 	if (emUrl.startsWith('https')) {
-		emExt = emUrl.replace(new RegExp('.*(\\.png|\\.gif)(\\?v=\\d)?','g'),'$1')
+		emExt = emUrl.replace(new RegExp('.*\\\/emojis\\\/(.*)(\\.png|\\.gif)(\\?v=\\d)?','g'),'$2');
+		emId = emUrl.replace(new RegExp('.*\\\/emojis\\\/(.*)(\\.png|\\.gif)(\\?v=\\d)?','g'),'$1');
 	} else {
 
 		emExt = getParameterByName('gif') ? '.gif' : '.png';
