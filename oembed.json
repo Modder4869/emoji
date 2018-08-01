@@ -6,6 +6,7 @@
 
     "provider_name": "source?",
 
-    "provider_url": "https://github.com/Modder4869/emoji"
-
+    "provider_url": "https://github.com/Modder4869/emoji",
+    
+    "type": "photo"                           
  }
